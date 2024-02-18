@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akari's portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#links">LINKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="about" id="about">
+      <h1><img src="img/icon.png" alt="Akariのアイコン" class="icon" /></h1>
+      <h2>Akari</h2>
+      <h3>Engineer/Designer</h3>
+      <p>
+        1994年生まれ、大阪府在住。 GG Voice & Action代表。
+        2015年からデザイン関係の仕事を中心に活動していましたが、2020年7月にIT企業に転職。
+        2023年2月からは、SESでWebアプリの開発業務に携わりながら、副業でデザイン業務をしています。
+      </p>
+    </div>
+    <div class="container">
+      <div class="works" id="works">
+        <h2>WORKS</h2>
+        <div class="work dev">
+          <h3>Web開発</h3>
+          <ul>
+            <li>パートナーとシェアできる日記アプリ開発</li>
+            <li>病院検索アプリ開発- 複合機に搭載するアプリ開発</li>
+            <li>飛行機の最安値を表示するWebサイト開発</li>
+            <li>空間の見える化をおこなうWebアプリ開発</li>
+            <li>なんでもギャルにしてくれるLINE bot開発</li>
+          </ul>
+          <a
+            href="https://miya-akari.notion.site/Works-f7141418c8414feea07b5d8cfca4c362?pvs=4"
+            target="_blank"
+            rel="noopener noreferrer"
+            >詳細を見る</a
+          >
+        </div>
+        <div class="work design">
+          <h3>デザイン</h3>
+          <ul>
+            <li>稼働管理Webアプリ　LPデザイン</li>
+            <li>IT業界の女性向け相談支援サービス　バナー作成</li>
+            <li>IT業界の女性向け相談支援サービス　チラシ作成</li>
+            <li>舞台パンフレット作成</li>
+            <li>名刺作成</li>
+          </ul>
+          <a
+            href="https://miya-akari.notion.site/Design-4cc0425bfe5a4f21b9c85da4c2d431c7?pvs=4"
+            target="_blank"
+            rel="noopener noreferrer"
+            >詳細を見る</a
+          >
+        </div>
+        <div class="work event">
+          <h3>登壇</h3>
+          <ul>
+            <li>
+              分かりやすい文章を書くために、私が意識していること/DevRel Meetup
+              in Tokyo #76 〜分かりやすいドキュメントを学ぼう〜
+            </li>
+            <li>
+              わかりやすいドキュメントのためのテクニック/DevRel Japan CONFERENCE
+              2022
+            </li>
+            <li>
+              私たちは何ができる？ジェンダーギャップに向き合うコミュニティとして考える、多様性への第一歩/Women
+              Developers Summit 2022
+            </li>
+            <li>
+              &#9839;GGVA
+              エンパワメントーク特別版～私のなかのアンコンシャス・バイアス〜/ウィメンズコンベンション
+            </li>
+          </ul>
+          <a
+            href="https://drive.google.com/drive/u/1/folders/1EQciLXWmIcGC91PerZnzESpAB4EhwaZN"
+            target="_blank"
+            rel="noopener noreferrer"
+            >詳細を見る</a
+          >
+        </div>
+        <div class="work write">
+          <h3>執筆</h3>
+          <ul>
+            <li>
+              これだけやれば、うまくいく！書くことが苦手な人のための“伝わる”文章術/Kindle
+            </li>
+          </ul>
+          <a
+            href="https://amzn.asia/d/9HiGlEO"
+            target="_blank"
+            rel="noopener noreferrer"
+            >詳細を見る</a
+          >
+        </div>
+      </div>
+      <div class="links" id="links">
+        <h2>LINKS</h2>
+        <ul>
+          <li>
+            <a
+              href="https://twitter.com/akari_myuc"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/logo_1.png" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/akrmyuc"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/logo_2.png" alt="GitHub"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://zenn.dev/miya_akari"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="img/logo_3.png" alt="Zenn"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact" id="contact">
+        <h2>CONTACT</h2>
+        <form method="post">
+          <label for="name">お名前</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">メールアドレス</label>
+          <input type="email" name="email" id="email" />
+          <label for="message">お問い合わせ内容</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="このページはサンプルなので送信できません。お問い合わせの際は、X(Twitter)までご連絡ください。"
+          ></textarea>
+          <button>送信</button>
+        </form>
+      </div>
+      <footer>
+        <small>&copy;Akari Tamba 2024</small>
+      </footer>
+      <button class="top" id="top_button">Top</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
